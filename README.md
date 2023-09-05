@@ -24,9 +24,8 @@
 - List Movies in a slider in List Movies
 - If one of the movies is clicked, redirect to a url containing its id
 - Create Movie Detail
-- - Get parameter in url
-- - Get the detail data of the relevant movie using that Prameter
-- - List information on the screen according to the response from the API
+- Get the detail data of the relevant movie using that Prameter
+- List information on the screen according to the response from the API
 
 <img src="screen.gif">
 # Netflix
