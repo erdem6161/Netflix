@@ -1,32 +1,32 @@
-# Kullanılan Kütüphaneler
+# Libraries
 
-- axios
+- Axios
 - @splidejs/react-splide
 - react-router-dom
 - redux
 - react-redux
 - redux-thunk
 
-# Kaynaklar
+# Sources
 
 - Api: https://developer.themoviedb.org/reference/intro/getting-started
 - Resim Url > https://image.tmdb.org/t/p/original
 - Kategori > https://api.themoviedb.org/3/genre/movie/list
 
-# Yapılcaklar
+# Things to do
 
-- redux kurulumunu tamamla
-- Popüler film verisini çek > store' a aktar
-- Rastgele Popüler filmlerden birini hero.jsx alanında listele
-- Film Kategorilerini çek > store' a aktar
-- Storedaki her bir kategori için ekrana bir <ListMovies /> bas
-- List Movies bileşeninde hangi kategori varsa onunla alakalı film verisini çek
-- List Movies içerisinde Filmleri bir sliderda listele
-- Filmlerden birine tıklanırsa idsini içeren bir urlye yöndlendir
-- Film Detay Oluştur
-- - Urldeki parametreyi al
-- - O Prametreyi kullanarak ilgili filmin detay verisini çek
-- - Apiden gelen cevaba göre ekrana bilgileri listele
+- complete redux installation
+- Extract popular movie data > export to store
+- Random List one of the popular movies in hero.jsx field
+- Extract Movie Categories > export to store
+- Print a <ListMovies /> screen for each category in the store
+- Get movie data related to whichever category is in List Movies component
+- List Movies in a slider in List Movies
+- If one of the movies is clicked, redirect to a url containing its id
+- Create Movie Detail
+- - Get parameter in url
+- - Get the detail data of the relevant movie using that Prameter
+- - List information on the screen according to the response from the API
 
 <img src="screen.gif">
 # Netflix
